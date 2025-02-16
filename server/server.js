@@ -9,7 +9,7 @@ import imageRouter from './routes/imageRoutes.js';
 
 const app = express();
 // app.use(configDotenv());
-const PORT = process.env.PORT || https://artimage-backend.onrender.com;
+const PORT = process.env.PORT || 'https://artimage-backend.onrender.com';
 // app.use(express.static('public'));
 // app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
