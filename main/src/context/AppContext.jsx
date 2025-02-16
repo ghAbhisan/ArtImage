@@ -13,7 +13,7 @@ const AppContextProvider=(props)=>{
     const[credit,setCredit]=useState(false);
 
 
-    const backendUrl=https://artimage-backend.onrender.com;
+    const backendUrl='https://artimage-backend.onrender.com';
     const navigate=useNavigate();
 
     const loadCreditsData=async()=>{
