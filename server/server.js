@@ -9,7 +9,7 @@ import imageRouter from './routes/imageRoutes.js';
 
 const app = express();
 // app.use(configDotenv());
-const PORT = process.env.PORT || 9999;
+const PORT = 'https://artimage-backend.onrender.com';
 // app.use(express.static('public'));
 // app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -26,6 +26,6 @@ app.listen(PORT, (error) => {
     if (error) {
         console.error(error);
     } else {
-        console.log(`Server is running on http://localhost:${PORT}`);
+        console.log(`Server is running on ${PORT}`);
     }
 });
